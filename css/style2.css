@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Century;
+}
+
+body{
+    background-color: #fefebe;
+}
+
+ul{
+    position: absolute;
+    left: 50%;
+    top:2%;
+    transform: translate(-50%);
+    list-style-type: none;
+    margin-top: 1%;
+}
+
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    padding: 5px 15px;
+    border: 1.2px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: grey;
+    color: black;
+}
+
+.image{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    float: right;
+    transform: translate(-50%,30%);
+}
+
+
+/*.logo{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:transparent;
+    width: 120px;
+    height:90px;
+}
+.title{
+    position:absolute;
+    top: 3%;
+    right: 3%;
+}
+
+.title h1{
+    color: red;
+    font-size: 2.4em;
+} */
+
+.button{
+    position:absolute;
+    top:90%;
+    left:50%;
+    transform: translate(-50%,-30%); 
+}
+
+.btn{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color:black;
+    text-decoration:none;
+    font-size: 2.1em;
+    font-weight: bold;
+    font-family: Century;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: grey;
+    color: black;
+}
+
+#txt1{
+    width: 50%;
+    background-color: pink;
+    transform:translate(25%,50%);
+    color: grey;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#txt2{
+    width: 50%;
+    background-color: pink;
+    transform:translate(25%,120%);
+    color: grey;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
