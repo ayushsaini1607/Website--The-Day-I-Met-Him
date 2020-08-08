@@ -364,7 +364,7 @@ ul li a{
             background-color: pink;
             color: grey;
             padding: 10px 10px 10px 10px;
-            transform:translate(5%,60%);
+            transform:translate(5%,100%);
             text-align: center;
             font-weight: bold;
             font-size: 0.9em;
@@ -377,7 +377,7 @@ ul li a{
             background-color: pink;
             color: grey;
             margin-top: 30px;
-            transform: translate(5%);
+            transform: translate(5%,100%);
             padding: 10px 10px 10px 10px;
             text-align: center;
             font-weight: bold;
