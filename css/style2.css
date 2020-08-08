@@ -282,8 +282,7 @@ ul li a{
             height: 250px;
             width: 300px;
             left: 50%;
-            transform: translate(-50%,60%);
-            
+            transform: translate(-50%,40%);  
         }
     
         .button{
@@ -359,7 +358,7 @@ ul li a{
           #txt1{
             display: block;
             width: 90%;
-            margin-top: 25px;
+            margin-top: 10px;
             background-color: pink;
             color: grey;
             padding: 10px 10px 10px 10px;
@@ -374,7 +373,7 @@ ul li a{
             width: 90%;
             background-color: pink;
             color: grey;
-            margin-top: 25px;
+            margin-top: 10px;
             transform: translate(5%);
             padding: 10px 10px 10px 10px;
             text-align: center;
