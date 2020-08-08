@@ -283,7 +283,7 @@ ul li a{
             width:200px;
             left: 50%;
             margin-top: 30%;
-            transform: translate(-50%);
+            transform: translate(-50%,40%);
             
         }
     
