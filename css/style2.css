@@ -279,10 +279,10 @@ ul li a{
         
         .image{
             position:relative;
-            height: 200px;
-            width:200px;
+            height: 250px;
+            width: 300px;
             left: 50%;
-            transform: translate(-50%,20%);
+            transform: translate(-50%,60%);
             
         }
     
@@ -359,7 +359,7 @@ ul li a{
           #txt1{
             display: block;
             width: 90%;
-            margin-top: 30px;
+            margin-top: 25px;
             background-color: pink;
             color: grey;
             padding: 10px 10px 10px 10px;
@@ -374,7 +374,7 @@ ul li a{
             width: 90%;
             background-color: pink;
             color: grey;
-            margin-top: 30px;
+            margin-top: 25px;
             transform: translate(5%);
             padding: 10px 10px 10px 10px;
             text-align: center;
